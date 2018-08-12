@@ -32,7 +32,7 @@ export const getAvailableFlights = () => {
         //                 id: index
         //             }
         //         })
-        //         console.log(res.data)
+        //
         //         dispatch({type: SET_AVAILABLE_FLIGHTS, flights})
         //     }
         // })
@@ -55,7 +55,7 @@ export const changeFilter = (id, values) => {
 }
 
 export const onAircompanySelect = id => {
-    console.log(123123123)
+
     return {
         type: ON_AIRCOMPANY_SELECT,
         aircompany: id

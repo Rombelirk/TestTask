@@ -202,7 +202,7 @@ class Filter extends Component{
                         borderRadius={this.props.circleDiameter}
                         left={this.state.circleToTheLeft}
                         width={this.state.circleToTheRight - this.state.circleToTheLeft}
-                        // right={this.containerNodeRight-this.state.circleToTheRight-this.containerNodeLeft}
+
                     />
                 
                         <Handle
