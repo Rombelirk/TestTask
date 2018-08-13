@@ -9,3 +9,5 @@ to run the app perform the following steps:
 3) npm install
 
 4) npm start
+
+5) open http://localhost:3000
